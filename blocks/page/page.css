@@ -1,34 +1,33 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700&family=Quicksand:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700&family=Quicksand:wght@300;400;600;700&display=swap");
 
 :root {
-    --dark-color: #0f1922;
-    --light-color: #FFFAFA;
-    --primary-color: #059B99;
-    --secondary-color: #FCC602;
-  }
+  --dark-color: #0f1922;
+  --light-color: #fffafa;
+  --primary-color: #059b99;
+  --secondary-color: #fcc602;
+}
 
 body {
-    background: var(--light-color);
-    color: var(--dark-color);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow: hidden visible;
+  background: var(--light-color);
+  color: var(--dark-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden visible;
 }
 
 a {
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--dark-color);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--dark-color);
 }
 
-a .light-theme{
-    color: var(--dark-color);
+a .light-theme {
+  color: var(--dark-color);
 }
 
 .page {
-    font-family: 'Heebo', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    margin: 0 auto;
+  font-family: "Heebo", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  margin: 0 auto;
 }
