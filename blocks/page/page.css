@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700&family=Quicksand:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap");
 
 :root {
   --dark-color: #0f1922;
@@ -12,8 +12,11 @@ body {
   color: var(--dark-color);
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   overflow: hidden visible;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -27,7 +30,12 @@ a .light-theme {
 }
 
 .page {
-  font-family: "Heebo", sans-serif;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Assistant", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 auto;
+}
+
+.hebrew {
+  display: none;
+  font-family: "Assistant", sans-serif;
 }

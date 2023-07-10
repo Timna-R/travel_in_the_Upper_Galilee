@@ -23,9 +23,9 @@
   z-index: 0;
 }
 
-.header__lang-link_active {
+/* .btn_active {
   text-decoration: underline;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .logo {
