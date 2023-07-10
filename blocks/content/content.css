@@ -1,0 +1,29 @@
+.content {
+    width: 1184px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .content {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content {
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+        width: 320px;
+    }
+}
