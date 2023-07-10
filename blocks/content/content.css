@@ -4,7 +4,7 @@
   align-content: center;
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .content {
     width: 928px;
   }
@@ -26,4 +26,4 @@
   .content {
     width: 320px;
   }
-} */
+} 
