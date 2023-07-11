@@ -14,16 +14,17 @@
 
 @media screen and (max-width: 1200px) {
     .photo-grid {
-        margin: 92px auto 0;
+        /* margin: 92px auto 0; */
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(3, 1fr);
-        gap: 14px;
+        /* gap: 14px; */
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        margin: 40px auto;
+        margin: 10px;
+        /* max-width: 100%; */
         width: calc( 100% -  2 * 24px);
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(2, 1fr);
