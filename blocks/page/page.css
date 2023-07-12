@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden visible;
+  width: 100vw;
 }
 
 * {
@@ -33,9 +34,22 @@ a .light-theme {
   font-family: "Assistant", sans-serif;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
+
 }
 
 .hebrew {
   display: none;
   font-family: "Assistant", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    width: 425px;
+  }
 }
