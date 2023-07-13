@@ -12,6 +12,13 @@
     width: 100%;
 }
 
+.figcaption-copy {
+    margin: 20px 50px;
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 1200px) {
     .photo-grid {
         grid-template-rows: repeat(4, 1fr);
@@ -25,5 +32,10 @@
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
+    }
+
+    .figcaption-copy {
+        margin-left: 20px;
+        font-size: 0.7rem;
     }
 }
