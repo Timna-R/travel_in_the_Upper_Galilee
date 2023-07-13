@@ -12,10 +12,10 @@
 
 @media screen and (max-width: 768px) {
   .content {
-    width: 768px;
+    width: 100vw;
   }
 }
-
+/* 
 @media screen and (max-width: 425px) {
   .content {
     width: 425px;
@@ -26,4 +26,4 @@
   .content {
     width: 320px;
   }
-}
+} */
