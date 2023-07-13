@@ -40,7 +40,7 @@ a .light-theme {
   font-family: "Assistant", sans-serif;
   direction: rtl;
 }
-
+/* 
 @media screen and (max-width: 768px) {
   .page {
     width: 768px;
@@ -52,3 +52,9 @@ a .light-theme {
     width: 425px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .page {
+    width: 390px;
+  }
+} */
