@@ -43,9 +43,6 @@
   text-transform: uppercase;
 }
 
-.lead__caption.hebrew {
-  text-align: right;
-}
 .airbnb {
   margin-top: 50px;
   text-align: center;
@@ -68,11 +65,12 @@
     max-width: 60%;
     font-size: 55px;
     line-height: 110%;
+    margin-top: 20px;
   }
   .lead__subtitle {
     max-width: 80%;
   }
-  .lead__subtitle.hebrew{
+  .lead__subtitle.hebrew {
     max-width: 60%;
   }
   .airbnb {

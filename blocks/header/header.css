@@ -7,7 +7,7 @@
   padding: 10px 20px;
   position: relative;
   top: 0;
-  background: var(--light-color)
+  background: var(--light-color);
 }
 
 .logo {
@@ -26,7 +26,7 @@
   z-index: 0;
 }
 
-.lang-btn{
+.lang-btn {
   border-radius: 10px;
   padding: 5px 5px;
   background-color: rgb(234, 231, 231);
