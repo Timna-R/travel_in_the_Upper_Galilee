@@ -29,6 +29,7 @@
 .lang-btn {
   border-radius: 10px;
   padding: 5px 5px;
+  color: var(--dark-color);
   background-color: rgb(234, 231, 231);
   border: 0.7px solid rgb(234, 231, 231);
   cursor: pointer;
