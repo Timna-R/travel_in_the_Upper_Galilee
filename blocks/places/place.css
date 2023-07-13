@@ -4,6 +4,7 @@
   max-width: 100%;
   display: grid;
   justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-areas:
     "title time"
     "image paragraphs"
