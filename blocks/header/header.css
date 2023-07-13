@@ -4,7 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 20px;
+  position: relative;
+  top: 0;
+  background: var(--light-color)
 }
 
 .logo {
@@ -23,13 +26,26 @@
   z-index: 0;
 }
 
+.header_airbnb-btn {
+  display: none;
+}
+
 /* .btn_active {
   text-decoration: underline;
 } */
 
 @media screen and (max-width: 768px) {
   .logo {
-    background-image: url(../../images/little-logo.png);
+    display: none;
+    /* background-image: url(../../images/little-logo.png);
     height: 40px;
+    width: 80px; */
+  }
+  .header {
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background: var(--light-color)
   }
 }
