@@ -76,11 +76,11 @@
   .place .time {
     margin: 10px 20px 10px 16px;
   }
-
   .place .paragraphs {
     width: calc(100% - 2 * 16px);
     margin: 20px auto 0;
-    font-size: 16px;
+    font-size: 17px;
+    letter-spacing: 0.05em;
   }
   .place .image {
     width: 100%;
