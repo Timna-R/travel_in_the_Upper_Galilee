@@ -13,6 +13,7 @@ Welcome to the Northern Israel Travel Website! This project provides information
 - Dual Language Support: Enjoy the flexibility of browsing the website's content in both Hebrew and English, ensuring a seamless experience for users.
 - Travel Destinations: Explore the enchanting travel spots in Northern Israel, from breathtaking landscapes to culturally significant sites.
 - Historical Places: Dive into the rich history of the region with detailed information about historical landmarks and their significance.
+- Responsive Design: The website adapts to different screen sizes, ensuring an optimal viewing experience on iPad and mobile devices.
 
 
 ## live site
